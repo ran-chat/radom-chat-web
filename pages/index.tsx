@@ -1,5 +1,5 @@
+import Login from "@/components/Login/Login";
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
 import styled from "styled-components";
 
 export default function Home() {
@@ -11,12 +11,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div>
-          <h1>랜덤 채팅 앱 입니다.</h1>
-          <TestButton>테스트 버튼</TestButton>
-        </div>
-      </main>
+
+      <div>
+        <h1>랜덤 채팅 앱 입니다.</h1>
+        <TestButton>테스트 버튼</TestButton>
+        <Login />
+      </div>
     </>
   );
 }
