@@ -1,16 +1,16 @@
-import { signIn } from "@/service/api/user/api";
-import styled from "styled-components";
+import { signIn } from '@/service/api/user/api';
+import styled from 'styled-components';
 
 const Login = () => {
   const login = async () => {
     const response = await signIn({
-      account: "test1",
-      password: "test1",
-      longitude: "126.966169",
-      latitude: "37.4800384",
+      account: 'test1',
+      password: 'test1',
+      longitude: '126.966169',
+      latitude: '37.4800384',
     });
 
-    console.log("response", response);
+    console.log('response', response);
   };
 
   return (

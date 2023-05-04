@@ -5,12 +5,12 @@ const config = {
   async rewrites() {
     return [
       {
-        source: "/:path*",
-        destination: "https://occu.shop/:path*",
+        source: '/:path*',
+        destination: 'https://occu.shop/:path*',
       },
     ];
   },
-  testEnvironment: "jest-environment-jsdom",
+  testEnvironment: 'jest-environment-jsdom',
 };
 
 module.exports = config;

@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "husky install",
+    "format": "prettier --cache --write .",
+    "lint": "eslint --cache ."
   },
   "dependencies": {
     "@next/font": "13.3.2",
@@ -42,7 +44,11 @@
     "@storybook/testing-library": "^0.0.14-next.2",
     "@types/jest": "^29.5.1",
     "@types/styled-components": "^5.1.26",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-storybook": "^0.6.11",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8",
     "storybook": "^7.0.7",
     "ts-jest": "^29.1.0"
   }
