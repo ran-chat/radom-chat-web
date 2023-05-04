@@ -1,5 +1,5 @@
 {
-  "hooks": {
+  "scripts": {
     "pre-commit": "echo 'hello world'"
   }
 }
