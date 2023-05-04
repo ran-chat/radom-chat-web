@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.{js,ts,tsx}": "eslint --fix"
+    "*.{js,ts,tsx}": "eslint"
   },
   "dependencies": {
     "@next/font": "13.3.2",
