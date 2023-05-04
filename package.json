@@ -9,11 +9,12 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "jest"
+    "test": "jest",
+    "lint-staged": {
+      "*.{js,ts,tsx}": "eslint"
+    }
   },
-  "lint-staged": {
-    "*.{js,ts,tsx}": "eslint"
-  },
+  
   "dependencies": {
     "@next/font": "13.3.2",
     "@testing-library/jest-dom": "^5.16.5",
