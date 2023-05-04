@@ -1,5 +1,5 @@
 {
-  "scripts": {
-    "pre-commit": "echo 'hello world'"
+  "hooks": {
+    "pre-commit": "echo \"hello world\" && lint-staged || (echo \"pre-commit hook failed\" && exit 1)"
   }
 }
