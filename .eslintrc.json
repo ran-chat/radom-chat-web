@@ -15,6 +15,7 @@
   },
   "rules": {
     // 규칙 설정
-    "printWidth": 150
+    "printWidth": 150,
+    "tabWidth": 2
   }
 }
