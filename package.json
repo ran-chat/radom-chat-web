@@ -12,6 +12,11 @@
     "test": "jest",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
   "dependencies": {
     "@next/font": "13.3.2",
     "@testing-library/jest-dom": "^5.16.5",
