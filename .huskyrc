@@ -1,5 +1,5 @@
 {
   "hooks": {
-    "pre-commit": "echo \"hello world\" && lint-staged"
+    "pre-commit": "echo 'Hello World!'"
   }
 }
