@@ -14,7 +14,9 @@ export default function Home() {
 
       <div>
         <h1>랜덤 채팅 앱 입니다.</h1>
-        <TestButton>테스트 버튼 허스키 적용dddddddㅇㅇㄴㅇdsddㄴㅇ</TestButton>
+        <TestButton>
+          테스트 버튼 허스키 적용dddddddㅇㅇㅇㄴㅇdsddㄴㅇ
+        </TestButton>
         <Login />
       </div>
     </>
