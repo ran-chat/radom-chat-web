@@ -1,5 +1,8 @@
 {
   "hooks": {
     "pre-commit": "echo 'Hello, World!'"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
   }
 }
