@@ -1,6 +1,7 @@
-import Login from '@/components/Login/Login';
+import Layout from '@/components/Layout/Layout';
+import MainSection from '@/components/Main/MainSection';
+import SubSection from '@/components/Main/SubSection';
 import Head from 'next/head';
-import styled from 'styled-components';
 
 export default function Home() {
   return (
@@ -12,17 +13,10 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <div>
-        <h1>랜덤 채팅 앱 입니다.</h1>
-        <TestButton>테스트 버튼</TestButton>
-        <Login />
-      </div>
+      <Layout>
+        <MainSection/>
+        <SubSection/>
+      </Layout>
     </>
   );
 }
-
-const TestButton = styled.button`
-  width: 200px;
-  height: 100px;
-  border-radius: 10px;
-`;
