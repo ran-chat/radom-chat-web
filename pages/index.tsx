@@ -14,8 +14,8 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <MainSection/>
-        <SubSection/>
+        <MainSection />
+        <SubSection />
       </Layout>
     </>
   );
