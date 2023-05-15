@@ -13,6 +13,5 @@ export const getCookie = (name: string) => {
 export const deleteCookie = (name: string) => {
   const expireDate = new Date();
   expireDate.setDate(expireDate.getDate() - 1);
-  document.cookie =
-    name + '= ' + '; expires=' + expireDate.toUTCString() + '; path=/';
+  document.cookie = name + '= ' + '; expires=' + expireDate.toUTCString() + '; path=/';
 };
