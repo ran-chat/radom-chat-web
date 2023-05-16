@@ -2,7 +2,7 @@ export const rest = {
   get: {
     liked: 'list/liked',
     distance: 'list/userlist',
-    matchedlist: 'list/userlist',
+    matchedlist: 'list/matchedlist',
     chatlist: 'list/chatlist',
     profile: 'profile',
     otherUserDistance: 'profile',
