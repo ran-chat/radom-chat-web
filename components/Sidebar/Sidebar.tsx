@@ -9,8 +9,8 @@ import styled from 'styled-components';
 
 function Sidebar() {
   const [selected, setSelected] = useState<number>(0);
-  const { data: matchedList } = useQuery(['getMached', 2], () => getMatchList(2));
-  const { data: userProfile } = useQuery(['getUserProfile', 2], () => getUserProfile(2));
+  const { data: matchedList } = useQuery(['getMached'], () => getMatchList(2));
+  const { data: userProfile } = useQuery(['getUserProfile'], () => getUserProfile(2));
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const onClick = (num: number) => {
