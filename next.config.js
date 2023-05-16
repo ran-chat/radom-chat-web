@@ -10,6 +10,9 @@ const config = {
       },
     ];
   },
+  images: {
+    domains: ['hellotaehwan.s3.ap-northeast-2.amazonaws.com'],
+  },
   testEnvironment: 'jest-environment-jsdom',
 };
 
